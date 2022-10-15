@@ -1,0 +1,21 @@
+Class adalah rancangan atau blue print dari sebuah objek. Sedangkan objek adalah sebuah variabel yang merupakan instance atau perwujudan dari Class. Instance bisa diartikan sebagai wujud dari class. Class berisi definisi variabel dan fungsi yang menggambarkan sebuah objek.
+* Method Overloading 
+Overloading  adalah mendefinisikan dua atau lebih method di dalam kelas yang sama, dengan nama yang sama, namun dengan deklarasi parameter yang berbeda. Java interpreter mampu membedakan method mana yang dieksekusi dengan mengenali tipe parameter yang dilewatkan ke method, serta mengenali return valuenya.Tugas dari method-method yang dioverloading tersebut berbeda. 
+* Method Construktor
+Konstruktor adalah Metode yang dapat digunakan untuk memberikan nilai awal saat objek di ciptakan. Metode ini di panggil secara otomatis oleh java ketika new dipakai untuk menciptakan instan kelas. Constructor sangatlah penting pada pembentukan sebuah object. Constructor adalah method dimana seluruh inisialisasi object ditempatkan. Berikut ini adalah property dari Constructor :
+- Constructor memiliki nama yang sama dengan class
+- Sebuah Constructor mirip dengan method pada umumnya, namun hanya informasi – informasi berikut yang dapat ditempatkan pada header sebuah constructor, scope atau identifikasi pengaksesan (misal: public), nama dari konstuktor dan parameter.
+- Constructor tidak memiliki return value
+- Constructor tidak dapat dipanggil secara langsung, namun harus dipanggil dengan menggunakan operator new pada pembentukan sebuah class.
+*  Assesor dan Mutator
+Encapsulation adalah proses pengelompokan property dan method dengan memberikan hak akses kepada property dan method sehingga property hanya dapat di akses melalui method accessor dan tidak dapat di rubah tanpa melalui prosedur yang seharusnya yang diatur pada method mutator. Dalam OOP Encapsulation di wujudkan dalam bentuk “class”. Dalam sebuah class terdapat property dan method yang memiliki hak akses tertentu terhadap environment/lingkungan-nya, hak akses ini biasa di sebut Access Modifier, access modifier terdiri dari private, protected, dan public.
+- private
+memberikan hak akses hanya kepada anggota class tersebut untuk menggunakan dan/atau mengubah nilai dari property atau method tersebut.
+- protected
+memberikan hak akses kepada anggota class nya dan anggota class hasil inheritance (penurunan sifat) dari class tersebut.
+- public
+memberikan hak akses kepada property dan method agar dapat digunakan diluar class tersebut.
+* Construktor Overloading
+Keyword yang digunakan pada method ini adalah this. Kata kunci this mengacu ke variabel instant dari kelas tersebut. Berguna untuk mengakses variabel instan yang didefinisikan di parameter. Biasanya digunakan dalam konstruktor atau method. Digunakan dalam untuk menyatakan objek yang sekarang.
+* Method Overriding
+Method subclass override terhadap method superclass ketika subclass mendeklarasikan method ang signaturenya serupa ke method dalam superclass. Signature dari method hanyalah informasiyang ditemukan dalam definisi method bagian atas. Signature mengikutkan tipe return, nama dandaftar parameter method tetapi itu tidak termasuk acces modifier dan tipe yang lain dari kata kunci eperti final dan static. Inilah perbedaan dari method overloading. Method overloadingsecara singkat didiskusikan dalam sub bagian pada kata kunci this. 
