@@ -1,33 +1,34 @@
-public class Komputer { //
+// Nama kelas
+public class Komputer { 
 
-//
+//atribut dari kelas Komputer
 String Jenis_komputer;
 private String merk;
 
-//
+// method mutator kelas Komputer
 public void setDataKomputer(String jenis, string merk){
 jenis_komputer = jenis;
 this.merk = merk;
 }
 
-//
+// method accessor kelas Komputer
 public String getJenis(){
 return jenis_komputer;
 }
 
-//
+// method accessor kelas Komputer
 public String getMerk(){
 return merk;
 }
 
 public static void main(String []args){
-//
+// membuat objek (intance) baru dari class Komputer
 komputer mykom = new Komputer();
 
-//
+// method setter kelas Komputer
 mykom.setDataKomputer("Laptop","MACBOOK");
 
-//
+// statement yang dihasilkan dari sebuah class yang dapat di cetak / output program
 System.out.println(mykom.getJenis());
 System.out.println(mykom.getMerk());
 }
